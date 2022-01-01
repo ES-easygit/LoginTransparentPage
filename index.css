@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(pic1.jpg) no-repeat center center fixed;
+  background-size: cover ;
+}
+.container{
+  width: 30%;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.container h1{
+  width: 50%;
+  display: inline-block;
+  font-size: 50px;
+  border-bottom: 5px solid whitesmoke;
+  margin-bottom: 15px;
+  padding: 13px 0;
+}
+.box input{
+  color: white;
+  width: 75%;
+  margin: 22px 0px;
+  padding: 5px 5px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 5px solid whitesmoke;
+}
+.box i{
+   width: 25px;
+   text-align: center;
+}
+.btn {
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin: 12px 0;
+  padding: 10px 21px;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  font-size: 18px;
+  background: none;
+  font-weight: bold;
+}
+.btn:hover{
+  color: rgb(6, 95, 197);
+  background: white;
+  opacity: 0.5;
+}
